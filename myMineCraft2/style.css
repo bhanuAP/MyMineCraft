@@ -1,0 +1,100 @@
+#gameName {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.tableStructure {
+  text-align: center;
+}
+
+#display {
+  margin-left: -50px;
+}
+
+table, th, td {
+  border-radius: 9px;
+  border: 2px solid white;
+  border-collapse: collapse;
+  background-color: #16A085 ;
+}
+
+th, td {
+  padding: 25px;
+}
+
+table {
+  margin: auto;
+}
+
+.mineCraft {
+  margin-top: -155px;
+  color: white;
+}
+
+.correctStep {
+  position: fixed;
+  margin-top: 300px;
+  margin-left: 100px;
+}
+
+#notification {
+  color: #254FD1;
+  text-align: center;
+}
+
+.wrongMoves {
+  position: fixed;
+  margin-top: -30px;
+}
+
+.wrongMovesCountPosition {
+  margin-top: -30px;
+  margin-left: 50px;
+}
+
+.statusDeclaration {
+  margin-top: 400px;
+  margin-left: 90px;
+  position:fixed;
+}
+
+.colorIndication {
+  margin-left: 1350px;
+}
+
+.colorIndicator {
+  margin-top: 10px;
+}
+
+.green {
+  margin-left: 950px;
+  background-color: green;
+  height: 40px;
+  width: 40px;
+}
+
+.red {
+  margin-left: 950px;
+  background-color: red;
+  height: 40px;
+  width: 40px;
+}
+
+.blue {
+  margin-left: 950px;
+  background-color: blue;
+  height: 40px;
+  width: 40px;
+}
+
+#playNextLevel {
+  background: green;
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-left: 700px;
+}

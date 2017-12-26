@@ -1,0 +1,25 @@
+#youWonTheGame {
+  height: 50%;
+  width: 100%;
+}
+
+#playNextLevel {
+  background: green;
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-left: 650px;
+}
+
+#winningStatus {
+  font-family: sans-serif;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 50px;
+  font-size: 55px;
+  color: white;
+}
