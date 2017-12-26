@@ -129,6 +129,9 @@ action['lost'] = function() {
   setTimeout(function(){location.reload()},800);
 }
 
+action['continueGame'] = function() {
+  return;
+}
 
 let display = function(text) {
   document.getElementById('display').innerText = text;
@@ -162,6 +165,7 @@ let giveGameStatus = function() {
   } else if(game.hasLostGame()) {
     return 'lost';
   }
+  return 'continueGame';
 }
 
 let checkMove = function(event) {
