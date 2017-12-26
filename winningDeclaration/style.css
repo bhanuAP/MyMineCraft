@@ -4,7 +4,7 @@
 }
 
 #playNextLevel {
-  background: green;
+  background: #016001;
   border-radius: 5px;
   padding-left: 40px;
   padding-top: 30px;
@@ -12,7 +12,9 @@
   padding-bottom: 30px;
   font-size: 30px;
   font-family: sans-serif;
-  margin-left: 650px;
+  margin-left: 400px;
+  margin-top: 800px;
+  position: absolute;
 }
 
 #winningStatus {
